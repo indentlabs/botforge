@@ -665,8 +665,8 @@ ul.sub-menu {
   display: block;
 }
 
-.single-service img {
-  margin-bottom: 35px;
+.single-service i {
+  margin-bottom: 25px;
 }
 
 .single-service .fold {
