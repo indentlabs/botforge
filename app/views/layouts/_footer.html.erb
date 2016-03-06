@@ -1,0 +1,75 @@
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center bottom-separator">
+                <%= image_tag "home/under", class: "img-responsive inline" %>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="testimonial bottom">
+                    <h2>Testimonials</h2>
+                    <div class="media">
+                        <div class="pull-left">
+                            <a href="#"><%= image_tag "home/profile1" %></a>
+                        </div>
+                        <div class="media-body">
+                            <blockquote>I hired a doctor and he cured my cancer.</blockquote>
+                            <h3><a href="#">- Steve Jobs</a></h3>
+                        </div>
+                     </div>
+                    <div class="media">
+                        <div class="pull-left">
+                            <a href="#"><%= image_tag "home/profile2" %></a>
+                        </div>
+                        <div class="media-body">
+                            <blockquote>I outsourced all my work and now get paid to do nothing.</blockquote>
+                            <h3><a href="">- Donovan Hernandez</a></h3>
+                        </div>
+                    </div>   
+                </div> 
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="contact-info bottom">
+                    <h2>More Information</h2>
+                    <p>
+                        Some more information. Some more information.
+                    </p>
+
+                    <p>
+                        Follow us on social media (managed by one of our own <a href="#">Social Media Manager</a> AIs!) on <a href="#">Facebook</a> or at <a href="#">@botforge</a>.
+
+                    <p>
+                        Proudly powered by <a href="http://indentlabs.com">Indent Labs.</a>
+                    </p>
+
+                    <p>
+                        Please read our <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="contact-form bottom">
+                    <h2>Interested? Get in touch!</h2>
+                    <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" required="required" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" required="required" placeholder="Email address">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Thank you for speeding up the robot revolution. I can't wait to be out of a job!"></textarea>
+                        </div>                        
+                        <div class="form-group">
+                            <input type="submit" name="submit" class="btn btn-submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="copyright-text text-center">
+                    <p>BotForge is &copy; Indent Labs, LLC 2016. All Rights Reserved. Design by <a target="_blank" href="http://designscrazed.org/">Allie</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

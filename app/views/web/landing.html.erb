@@ -1,2 +1,159 @@
-<h1>Web#landing</h1>
-<p>Find me in app/views/web/landing.html.erb</p>
+<section id="home-slider">
+    <div class="container">
+        <div class="row">
+            <div class="main-slider">
+                <div class="slide-text">
+                    <h1>Hire your first artificial intelligence employee starting at $0.07/hour.</h1>
+                    <p>Yes, that <em>is</em> 100x cheaper than minimum wage. Get started now.</p>
+                    <a href="#" class="btn btn-common">BROWSE WORKERS</a>
+                </div>
+                <%= image_tag "home/slider/hill", class: "slider-hill" %>
+                <%= image_tag "home/slider/house", class: "slider-house" %>
+                <%= image_tag "home/slider/sun", class: "slider-sun" %>
+                <%= image_tag "home/slider/birds1", class: "slider-birds1" %>
+                <%= image_tag "home/slider/birds2", class: "slider-birds2" %>
+            </div>
+        </div>
+    </div>
+    <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+</section>
+
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <i class="fa fa-5x fa-gears"></i>
+                    </div>
+                    <h2>Incredibly Advanced</h2>
+                    <p>
+                        Each artificial intelligence agent is hand-crafted with extensive domain and working knowledge to be engaging, easy to work with, and your new most efficient employee.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <i class="fa fa-5x fa-line-chart"></i>
+                    </div>
+                    <h2>Always Improving</h2>
+                    <p>
+                        BotForge AIs live in the cloud, where they are able to discuss and share their anonymized experiences between each other, improving the collective as a whole every second.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <i class="fa fa-5x fa-calendar-o"></i>
+                    </div>
+                    <h2>Guaranteed Reliability</h2>
+                    <p>
+                        Imagine an employee that happily works nights, weekends, and holidays, is never late to work, and always responds immediately to your email.<br />Great. Now, <a href="#">hire them</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="action" class="responsive">
+    <div class="vertical-center">
+         <div class="container">
+            <div class="row">
+                <div class="action take-tour">
+                    <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h1 class="title">Estimate your cost savings</h1>
+                        <p>The average employer saves over $30,000 per year <em>per employee</em>.</p>
+                    </div>
+                    <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="tour-button">
+                            <a href="#" class="btn btn-common">ESTIMATE YOUR SAVINGS</a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="features">
+    <div class="container">
+        <div class="row">
+            <div class="single-features">
+                <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <%= image_tag "home/slider/hill", class: "img-responsive" %>
+                </div>
+                <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <h2>Get started immediately</h2>
+                    <p>
+                        Need a <a href="#">Social Media Manager</a>? Select and interview your favorite AI and get them up to speed in seconds. Train them automatically from your existing social media interactions, and check in whenever you want to see a detailed report of how and what they're doing.
+                    </p>
+                </div>
+            </div>
+            <div class="single-features">
+                <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <h2>Provide amazing customer support, 24/7</h2>
+                    <p>
+                        Run a retail store? Hire a <a href="#">Retail Support Specialist</a> to triage customer questions and problems, freeing up your other employees to handle face-to-face interactions. Run a blog? Perhaps you'd benefit more from a <a href="#">Content Proofreader</a> tirelessly making sure you never miss a period
+                    </p>
+                </div>
+                <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <%= image_tag "home/slider/house", class: "img-responsive" %>
+                </div>
+            </div>
+            <div class="single-features">
+                <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <%= image_tag "home/clients", class: "img-responsive pull-right" %>
+                </div>
+                <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <h2>Effortlessly seed new companies or products</h2>
+                    <p>
+                        Hiring high-quality employees that flawlessly work together towards your vision has never been simpler. Want to run your own HFT trading firm? Hire two <a href="#">High Frequency Traders</a> and a <a href="#">Stock Analyst</a> and watch them work together seamlessly from a powerful dashboard.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="clients">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <p>
+                        <%= image_tag "home/slider/birds1", class: "img-responsive" %>
+                        <%= image_tag "home/slider/birds2", class: "img-responsive" %>
+                    </p>
+                    <h1 class="title">Happy Clients</h1>
+                    <p>
+                        Hiring the best employees means the best services for your customers. <br />
+                        We're extremely happy to provide that service to leaders in technological innovation.
+                    </p>
+                </div>
+                <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="col-xs-3 col-sm-2">
+                        <a href="#"><img src="http://purplo.com/wp-content/uploads/2014/10/google_logo1.png" class="img-responsive" alt=""></a>
+                    </div>
+                    <div class="col-xs-3 col-sm-2">
+                        <a href="#"><img src="http://purplo.com/wp-content/uploads/2014/10/google_logo1.png" class="img-responsive" alt=""></a>
+                    </div>
+                     <div class="col-xs-3 col-sm-2">
+                        <a href="#"><img src="http://purplo.com/wp-content/uploads/2014/10/google_logo1.png" class="img-responsive" alt=""></a>
+                    </div>
+                     <div class="col-xs-3 col-sm-2">
+                        <a href="#"><img src="http://purplo.com/wp-content/uploads/2014/10/google_logo1.png" class="img-responsive" alt=""></a>
+                    </div>
+                     <div class="col-xs-3 col-sm-2">
+                        <a href="#"><img src="http://purplo.com/wp-content/uploads/2014/10/google_logo1.png" class="img-responsive" alt=""></a>
+                    </div>
+                     <div class="col-xs-3 col-sm-2">
+                        <a href="#"><i class="fa fa-plus fa-3x"> you</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
