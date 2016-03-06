@@ -3,7 +3,9 @@ Rails.application.routes.draw do
 
   #todo
   get 'dashboard' => 'web#dashboard'
-  get 'web/about'
+  get 'about' => 'web#about'
+
+
   get 'web/pricing'
   get 'web/faq'
   get 'web/calculator'
