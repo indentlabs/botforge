@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  get 'web/landing'
+
+  get 'web/dashboard'
+
+  get 'web/about'
+
+  get 'web/pricing'
+
+  get 'web/faq'
+
+  get 'web/calculator'
+
+  get 'web/privacy'
+
+  get 'web/leaderboards'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
